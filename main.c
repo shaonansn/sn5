@@ -112,13 +112,29 @@ int main(){
             
         }
          if (code == 6){
-            
+            int max = 0;
+            int ID;
+
+            for(int i = 0; i < index; i++)
+            {
+                if(max < sum)
+                {
+                    max = sum;
+                }
+                ID = i + 1;
+            }
+            printf("di%dmingxuesheng%sdezongchengjizuigao,zuigaowei%d\n",ID, arr[index].name,max);
+            printf("shaixuanwancheng,dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
          if (code == 7){
             
         }
          if (code == 8){
-            
+            printf("tuichu\n");
+            break;
         }
     }
 
