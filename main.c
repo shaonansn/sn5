@@ -50,11 +50,23 @@ int main(){
             char x;
             scanf("%c",&x);
             scanf("%c",&x);
-
-
-
-
-
+        }
+        if(code == 2){
+            printf("shanchuxueshengchengji\n");
+            if (index > 0)
+            {
+                index--;
+                printf("shanchuchenggong,dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
+            else{
+                printf("wuxueshengxinxi,shanchushibai,dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
         }
         if(code == 3){
             printf("suoyouxueshengchengjiruxia:\n");
@@ -67,6 +79,21 @@ int main(){
             char x;
             scanf("%c",&x);
             scanf("%c",&x);
+        }
+        if (code == 4){
+
+        }
+         if (code == 5){
+            
+        }
+         if (code == 6){
+            
+        }
+         if (code == 7){
+            
+        }
+         if (code == 8){
+            
         }
     }
 
